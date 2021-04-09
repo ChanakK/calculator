@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #b88c9e, #704c5e);
+}
+
+/* main-container */
+.main-container {
+  margin-top: 30px;
+}
+
+/* input rules */
+.input {
+  width: 100%;
+  font-size: 2rem;
+  text-align: right;
+  background: rgb(10, 9, 9);
+  color: white;
+  padding: 15px 20px;
+  padding: 20px;
+}
+
+/* first-buttons */
+.btn-2 {
+  flex-basis: 50%;
+}
+
+.btn-1 {
+  flex-basis: 25%;
+}
+
+/* middle- buttons */
+.btn-w {
+  flex-basis: 100%;
+}
+.btn-4 {
+  display: flex;
+}
+
+/* buttons-at the end */
+.btn-3 {
+  flex-basis: 75%;
+}
+
+/* button-general */
+
+/* inner-buttons -> inside btn-genereal*/
+.btn-inner {
+  padding: 20px;
+  font-size: 2rem;
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+/* highlighting buttons */
+.btn-highlight-color {
+  background-color: peru;
+  color: #fff;
+}
+
+/* hover states for buttons */
+.btn-inner:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+.btn-highlight-color:hover {
+  background-color: rgb(204, 172, 141);
+}
